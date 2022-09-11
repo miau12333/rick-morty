@@ -1,5 +1,10 @@
-.ctn{
-    border: 1px solid black;
-    margin: 10px;
-}
+#root {
+    margin: 0 auto;
+    max-width: fit-content;
+    text-align: center;
+    --dark1:#062226;
+    --dark2: #E5E5E5;
+  }
+
+
 

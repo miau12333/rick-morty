@@ -14,15 +14,15 @@ const ResidentInfo = ({url}) => {
     console.log(character)
 
     return (
-        <>
+        <li className='size'>
             <div className="ctn">
                 <img src={character.image} alt="" />
                 <h3>{character?.name}</h3>
-                <h3>{character.status}</h3>
-                <h3><b>Origin:</b> {character.origin?.name}</h3>
-                <h3>Episodes where appear:{character.episode?.length}</h3>
+                <p><b>Status:</b> {character.status}</p>
+                <p><b>Origin:</b> {character.origin?.name}</p>
+                <p><b>Episodes where appear:</b> {character.episode?.length}</p>
             </div>
-        </>
+        </li>
     );
 };
 
