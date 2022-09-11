@@ -5,9 +5,8 @@
 }
 
 body{
-  background: purple/*10123b*/;
+  background: #10123b;
   background-size: cover;
-  overflow: scroll;
   margin:0 auto;
 }
 
@@ -41,13 +40,14 @@ p{
   background-image: url(./img/BackGround.jpg);
   width: 1840px;
   height: 340px;
+  margin: 10px;
   background-position: top center;
   position: relative;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3px;
+  gap: 10px;
 }
 
 input{
